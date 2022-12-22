@@ -1,6 +1,7 @@
 *{
     margin:0;
     box-sizing: border-box;
+    font-family:sans-serif;
 }
 a{
     color:black;
@@ -12,6 +13,8 @@ a{
   
     width:100%;
     display: flex;
+    margin-left: 100px;
+    margin-top: 0px;
     margin:auto;
     padding: 20px;
     align-items: center;
@@ -37,31 +40,33 @@ a{
 }
 
 .signup{
-    background-color: rgb(47, 175, 47);
-    color:aliceblue;
+    background-color: rgb(83,189,149);
+    color: antiquewhite;
     border-radius: 10%;
     margin-right: 5rem;
     
 }
+.signup:hover{
+    color:black;
+}
 
 a:hover{
-    color:rgb(47, 175, 47);
+    color:rgb(83,189,149);
 }
 .navbar2{
  display:flex;
  align-items: center;
  justify-content: space-between;
- margin: auto;
- padding: 25px;
+ border-bottom: 1px solid black;
+ padding: 20px;
  font-weight: 600;
+ margin-left: 100px;
+ margin-right: 100px;
+ margin-top: 0px;
 }
 .bottomleft a{
 padding:20px;
 }
 .bottomright{
     align-items: center;
-}
-
-.line{
-    width:100%;
 }
