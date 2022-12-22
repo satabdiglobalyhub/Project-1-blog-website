@@ -41,7 +41,7 @@ a{
 
 .signup{
     background-color: rgb(83,189,149);
-    color: antiquewhite;
+    color: rgb(255, 255, 255);
     border-radius: 10%;
     margin-right: 5rem;
     
@@ -69,4 +69,8 @@ padding:20px;
 }
 .bottomright{
     align-items: center;
+}
+input {
+    border: none;
+    
 }
