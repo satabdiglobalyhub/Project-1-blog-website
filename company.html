@@ -12,9 +12,9 @@
     <title>Company</title>
   </head>
   <body>
-    <div class="navbar1">
+    <div class="navbar1 container">
       <div class="topleft">
-        <img src="pictures/logo.png" />
+        <a href="home.html"><img src="pictures/logo.png" /></a>
       </div>
       <div class="topmid">
         <ul>
@@ -33,17 +33,19 @@
     </div>
 
     <div class="navbar2">
-      <div class="bottomleft">
-        <a href="popular.html">Popular</a>
-        <a href="engineering.html">Engineering</a>
-        <a href="growthmarketing.html">Growth marketing</a>
-        <a href="company.html">Company</a>
-      </div>
-      <div class="bottomright">
-        <form action="search.html">
-          <i class="material-icons">search</i>
-          <input type="text" placeholder="Search..." />
-        </form>
+      <div class="container flex justify-between">
+        <div class="bottomleft">
+          <a href="home.html">Popular</a>
+          <a href="engineering.html">Engineering</a>
+          <a href="growthmarketing.html">Growth marketing</a>
+          <a href="company.html">Company</a>
+        </div>
+        <div class="bottomright">
+          <form action="search.html">
+            <i class="material-icons">search</i>
+            <input type="text" placeholder="Search..." />
+          </form>
+        </div>
       </div>
     </div>
   </body>
