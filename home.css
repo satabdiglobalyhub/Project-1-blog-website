@@ -85,20 +85,23 @@ padding:20px;
     display: flex;
     width: 1400px;
     margin: 0 auto;   
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.211);
 }
 .navbar-2 a:hover{
     color:rgb(83,189,149);
 }
-.navbar-2__bottomleft a::after{
+/* .navbar-2__bottomleft a::after{
     content: "";
     display: block;
     width: 0%;
     height: 2px;
     background-color:  rgb(83,189,149);
     transition: 0.3;
+} */
+.navbar-2__bottomleft a:hover{
+border-bottom: 1px solid #53bd95;
 }
-.navbar-2__bottomleft a:hover::after{
-    width: 100%;
-    transition: 0.4s;
+
+.body__container{
+    display:grid;
 }
