@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="global.css" />
     <link rel="stylesheet" href="growthmarketing.css" />
     <link
       rel="stylesheet"
@@ -11,10 +12,10 @@
     />
     <title>Home</title>
   </head>
-  <body>
+  <body class="container">
     <div class="navbar-top navbar-top__container">
       <div class="navbar-top__topleft">
-        <a href="home.html"><img src="pictures/logo.png" /></a>
+        <a href="home.html"><img src="pictures/logo.png"  class="company__logo"/></a>
       </div>
       <nav class="navbar-top__topmid">
         <ul>
@@ -55,19 +56,21 @@
 
     <div class="body__container1">
       <div class="body__container1__left">
-        <h1>
+        <h1 class="body__container1__left__heading">
           How VWO used products analytics to increase new feature adoption and
           reduce churn
         </h1>
-        <br />
-        <h2>
+
+        <h2 class="body__container1__left__aboutwriter">
           <img src="pictures/face3.jpg" class="body__faceimage" /><img
             src="pictures/face4.jpg"
             class="body__faceimage"
           />
-          Doug Roberge and olivia Buono on October 7th 2022
+          <div class="body__container1__left__aboutwriter__text">
+            Doug Roberge and olivia Buono on October 7th 2022
+          </div>
         </h2>
-        <br /><br />
+
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
           esse quisquam provident dicta, molestias debitis blanditiis deleniti
@@ -76,41 +79,88 @@
           adipisicing elit. Laudantium vitae at rem ipsam ullam facere tempora
           cum inventore. Ipsa minima inventore provident reiciendis doloremque
           porro repellendus ipsum sunt in perferendis. Lorem, ipsum dolor sit
-          amet consectetur adipisicing elit.<br />
-          <br />
+          amet consectetur adipisicing elit.
+        </p>
+        <p>
           Illo, cumque. Aut nisi qui quaerat cupiditate blanditiis nesciunt
           nulla dicta, accusamus exercitationem, maiores tempore a alias saepe
-          distinctio. Qui, a hic! Lorem ipsum dolor sit, amet consectetur
-          adipisicing elit. Ipsa vitae quibusdam provident corrupti aliquid
-          quisquam, impedit totam voluptates neque corporis soluta, possimus
-          animi ratione eum, rem reprehenderit esse. Amet, non! Lorem ipsum
-          dolor sit amet consectetur adipisicing elit.<br /><br />
-
+          distinctio.
+        </p>
+        <p>
+          Qui, a hic! Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+          Ipsa vitae quibusdam provident corrupti aliquid quisquam, impedit
+          totam voluptates neque corporis soluta, possimus animi ratione eum,
+          rem reprehenderit esse. Amet, non! Lorem ipsum dolor sit amet
+          consectetur adipisicing elit.
+        </p>
+        <p>
           Nam, voluptatibus cum, quo commodi architecto sit at obcaecati
           veritatis nemo cumque iste id totam perspiciatis placeat voluptate qui
           ex quod quasi.
         </p>
-        <br />
       </div>
 
       <div class="body__container1__right">
-        <div>
+        <div class="body__container1__right__margin">
           <h3>Sign up to our newsletter</h3>
-          <br />
         </div>
-        <div>
+        <div class="body__container1__right__margin">
           Get the latest articles on all things data delivered straight to your
           inbox.
         </div>
-        <br /><br />
-        <div><input type="text" placeholder="Your work email" class="body__container1__right__email"/></div>
-        <div>
-          <a href="#" class="body__container1__right__button">Subscribe</a
-          ><br /><br />
+
+        <div class="body__container1__right__margin">
+          <input
+            type="text"
+            placeholder="Your work email"
+            class="body__container1__right__email"
+          />
         </div>
-        <div class="body__container1__right__demo">Get a Segment demo -></div>
-        <div class="body__container1__right__share">Share</div>
-        <div class="body__container1__right__update">keep updated</div>
+        <div>
+          <a
+            href="#"
+            class="body__container1__right__button body__container1__right__margin"
+            >Subscribe</a
+          >
+        </div>
+        <div
+          class="body__container1__right__demo body__container1__right__margin"
+        >
+          Get a Segment demo ->
+        </div>
+        <div
+          class="body__container1__right__share body__container1__right__margin"
+        >
+        Share
+        <img src="pictures/twitter.png" >
+        <img src="pictures/linkedin.png" >
+        <img src="pictures/facebook.png" >
+      </div>
+        <div
+          class="body__container1__right__update body__container1__right__margin"
+        >
+        <img src="pictures/feed.png">
+          keep updated
+        </div>
+      </div>
+    </div>
+    <div class="container2">
+      <div>
+        <h2 class="container2__heading">
+          How to measure and improve customer retention
+        </h2>
+        <div class="container2__body">
+          <p>
+            Leaen how to create data-informed strategy,along with practical
+            techniques you can use all stages of the customer lifecycle.
+          </p>
+        </div>
+        <div>
+          <a href="#" class="container2__guide">Get the guide</a>
+        </div>
+      </div>
+      <div>
+        <img src="pictures/1.jpg" class="container2__image" />
       </div>
     </div>
   </body>

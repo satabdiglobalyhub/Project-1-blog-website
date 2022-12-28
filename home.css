@@ -1,147 +1,85 @@
-*{
-    margin:0;
-    box-sizing: border-box;
-    font-family:sans-serif;
-    font-weight: 600;
+.flex {
+  display: flex;
 }
-a{
-    color:black;
-    text-decoration: none;
-    text-align:center;
-}
-.flex{
-    display: flex;
-}
-.justify-between{
-    justify-content:space-between ;
-}
-input {
-    border: none;  
+.justify-between {
+  justify-content: space-between;
 }
 
-.navbar-top{
-    width:100%;
-    display: flex;
- padding: 50px;
-    align-items: center;
-    justify-content:space-between;  
+.body__container1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 50px 50px 50px;
+  gap: 50px;
 }
-.navbar-top__container{
-    display:flex;
-    margin:0 auto;  
+.body__container1__left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
-.navbar-top__topmid a {
-    padding: 20px;  
+.body__aboutwriter {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap:10px;
+  margin: 10px 0px;
 }
-.navbar-top__topmid{
-   font-weight: 600;
-   justify-content: space-between;
+.body__container1__left__company {
+  background-color: lightblue;
+  color: blue;
+  padding: 10px;
+  border-radius: 5px;
 }
-.navbar-top__topmid a:hover{
-    color:rgb(83,189,149);
+.body__container1__left__company__picture {
+  max-width: 500px;
+  max-height: 500px;
+  border-radius: 10px;
 }
-.navbar-top__topright{
-    font-weight: 600;
-}
-.navbar-top__topright a{
-    padding: 20px;
-}
-.navbar-top__topright__signup{
-    background-color: rgb(83,189,149);
-    color: rgb(255, 255, 255);
-    border-radius: 10px;
-}
-.navbar-top__topright__signup:hover{
-    color:black;
-}
-.navbar-top__topright__login:hover{
-    color:rgb(83,189,149);
+.body__faceimage {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin-bottom: 20px;
 }
 
-.navbar-bottom{
-    padding: 50px;
- align-items: center;
- justify-content: space-between;
- font-weight: 600;
- 
+.body__container2 {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
 }
-.navbar-bottom__bottomleft{
-    display: flex;
-    gap:50px;
-    text-align: center;
+.body__container2__left {
+  padding: 15px;
+  border-left: 08px solid #53bd95;
 }
-.navbar-bottom__bottomleft a{
-padding-bottom: 20px;
-}
-.navbar-bottom__bottomright{
-    display: flex;
-    align-items: center;
-}
-.navbar-bottom__bottomright__searchbar{
-    align-items: center;
-}
-.navbar-bottom__container{
-    display: flex;
-    margin: 0 auto;   
-    border-bottom: 1px solid rgba(0, 0, 0, 0.211);
-}
-.navbar-bottom a:hover{
-    color:rgb(83,189,149);
+.body__container2__right {
+  color: #53bd95;
 }
 
-.navbar-bottom__bottomleft a:hover{
-border-bottom: 1px solid #53bd95;
+.body__container3 {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 50px;
+  gap: 50px;
 }
-
-.body__container1{
-    display:flex;
-    justify-content: space-between;
-    padding:50px;
+.body__container3__left__bottom__heading {
+  margin: 20px 0px;
 }
-.body__container1__company{
-    padding:10px;
-    background-color:rgb(26, 132, 197);
-    color: blue;
-    border-radius: 10px;
-    
+.body__container3__left__picture {
+  width: 500px;
+  height: 500px;
+  border-radius: 10px;
 }
-.body__container1__company__picture{
-max-width: 500px;
-max-height: 500px;
-border-radius: 10px;
+.body__faceimagebottom {
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  margin-bottom: 20px;
 }
-.body__faceimage{
-border-radius: 50%;
-max-width: 50px;
-max-height: 50px;
+.body__container3__right__top {
+  margin-bottom: 50px;
 }
-
-.body__container2{
-    display:flex;
-    justify-content: space-between;
-    padding:50px;
+.body__container3__right__top__heading {
+  margin-bottom: 20px;
 }
-.body__container2__left{
-    border-left: 08px solid #53bd95;
-
-}
-.body__container2__right{
-    color:#53bd95;
-}
-.body__container3{
-    display:flex;
-    justify-content: space-between;
-    padding:50px;
-    gap:50px;
-}
-
-.body__container3__left__picture{
-    max-width: 500px;
-    max-height: 500px;
-    border-radius: 10px;
-}
-.body__container3__right{
-    display:flex;
-    flex-direction: column;
-    justify-content: space-between;
+.body__container3__right__bottom__heading {
+  margin-bottom: 20px;
 }
