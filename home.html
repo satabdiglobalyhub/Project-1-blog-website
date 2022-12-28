@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="global.css" />
     <link rel="stylesheet" href="home.css" />
     <link
       rel="stylesheet"
@@ -11,10 +12,10 @@
     />
     <title>Home</title>
   </head>
-  <body>
+  <body class="container">
     <div class="navbar-top navbar-top__container">
       <div class="navbar-top__topleft">
-        <a href="home.html"><img src="pictures/logo.png" /></a>
+        <a href="home.html"><img src="pictures/logo.png"  class="company__logo"/></a>
       </div>
       <nav class="navbar-top__topmid">
         <ul>
@@ -55,30 +56,35 @@
 
     <div>
       <div class="body__container1">
-        <div>
+        <div class="body__container1__left">
           <h1>
             Introducing Segment Data Leaks: How to start using advanced
             analytics
           </h1>
-          <br />
-          <h2>
+
+          <h3 class="body__aboutwriter">
             <img src="pictures/face1.jpg" class="body__faceimage" />
             Nicole Nearhood on September 8th 2022
-          </h2>
-          <br />
+          </h3>
+
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam,
             a vel. Facere sint excepturi voluptatum ducimus corporis dicta!
             Delectus nobis id doloremque provident perferendis impedit aut
-            numquam excepturi quibusdam ut.
+            numquam excepturi quibusdam ut. Lorem ipsum dolor sit, amet
+            consectetur adipisicing elit. Voluptatem repudiandae quas adipisci
+            molestiae! Doloribus, sapiente veritatis perferendis animi
+            repudiandae rem eum, odit rerum dolore atque esse distinctio
+            molestiae molestias dolorum?
           </p>
-          <br />
-          <a href="#" class="body__container1__company">Company</a>
+          <div class="body__container1__left__bottom">
+            <span class="body__container1__left__company"> Company </span>
+          </div>
         </div>
         <div>
           <img
             src="pictures/1.jpg"
-            class="body__container1__company__picture"
+            class="body__container1__left__company__picture"
           />
         </div>
       </div>
@@ -86,41 +92,54 @@
         <div class="body__container2__left"><h1>Engineering</h1></div>
         <div class="body__container2__right">All Engineering articles -></div>
       </div>
+
       <div class="body__container3">
         <div class="body__container3__left">
           <img src="pictures/2.jpg" class="body__container3__left__picture" />
         </div>
         <div class="body__container3__right">
-          <div>
-            <h1>
-              APIs are eating the value chain: Why we're transitioning to
-              API-first
+          <div class="body__container3__right__top">
+            <div class="body__container3__right__top__heading">
+              <h1>
+                APIs are eating the value chain: Why we're transitioning to
+                API-first
+              </h1>
+            </div>
+            <div>
+              <h3 class="body__aboutwriter">
+                <img src="pictures/face2.jpg" class="body__faceimage" />
+                Chris Sperandio on December 12th 2022
+              </h3>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
+              odio dignissimos ratione quis accusantium fuga inventore nesciunt
+              beatae ipsum tempore, distinctio officiis reprehenderit,
+              architecto placeat dicta eligendi, incidunt hic commodi. Lorem
+              ipsum dolor sit amet consectetur adipisicing elit. Nesciunt neque
+              rerum corrupti amet maiores possimus odio eveniet, asperiores
+              incidunt expedita delectus quidem repellat cupiditate, enim alias
+              consectetur quos, eos cum? Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Commodi ipsa hic porro numquam explicabo nulla!
+              Magnam omnis magni modi alias. Eligendi necessitatibus quae non
+              debitis corrupti nihil consectetur, nesciunt sint.
+            </p>
+          </div>
+          <div class="body__container3__right__bottom">
+            <h1 class="body__container3__right__bottom__heading">
+              Flux vision: An open source package to supercharge your shopify
+              analytics with segment
             </h1>
-            <br />
-            <h2>
-              <img src="pictures/face2.jpg" class="body__faceimage" />
-              Chris Sperandio on December 12th 2022
-            </h2>
-            <br />
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam odio
-            dignissimos ratione quis accusantium fuga inventore nesciunt beatae
-            ipsum tempore, distinctio officiis reprehenderit, architecto placeat
-            dicta eligendi, incidunt hic commodi. <br />
-          </div><br><br>
-          <div>
-            <h1>
-              Flux vision: An open source package to supercharge your shopify analytics with segment
-            </h1>
-            <br />
-            <h2>
+
+            <h3 class="body__aboutwriter">
               <img src="pictures/face3.jpg" class="body__faceimage" />
               Stephen Grable on May 4th 2022
-            </h2>
-            <br />
+            </h3>
+
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam odio
             dignissimos ratione quis accusantium fuga inventore nesciunt beatae
             ipsum tempore, distinctio officiis reprehenderit, architecto placeat
-            dicta eligendi, incidunt hic commodi. <br />
+            dicta eligendi, incidunt hic commodi.
           </div>
         </div>
       </div>
