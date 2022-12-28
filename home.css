@@ -20,7 +20,8 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  gap: 20px;
+  gap:10px;
+  margin: 10px 0px;
 }
 .body__container1__left__company {
   background-color: lightblue;
@@ -59,12 +60,20 @@
   padding: 0px 50px;
   gap: 50px;
 }
+.body__container3__left__bottom__heading {
+  margin: 20px 0px;
+}
 .body__container3__left__picture {
   width: 500px;
   height: 500px;
   border-radius: 10px;
 }
-
+.body__faceimagebottom {
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  margin-bottom: 20px;
+}
 .body__container3__right__top {
   margin-bottom: 50px;
 }
