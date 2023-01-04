@@ -112,3 +112,7 @@ p {
 .navbar-bottom__bottomleft a:hover {
   border-bottom: 1px solid #53bd95;
 }
+
+@media only screen and (max-width: 600px) {
+  
+}
